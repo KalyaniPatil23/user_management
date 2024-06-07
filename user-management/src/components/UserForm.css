@@ -1,0 +1,96 @@
+.form-container {
+    display: flex;
+    background: white;
+    width: 871px;
+    position: absolute;
+    height: 441px;
+    top: 170px;
+    left: 204px;
+    gap: 0px;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+.user-form {
+    padding: 16px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-form-button {
+    position: absolute;
+    top: 630px;
+    right: 189px;
+    left: inherit;
+  }
+  
+  .user-form button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  .user-form button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
+  .custom-input {
+    width: 319px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+  }
+  
+  .input-icon {
+    margin-right: 8px;
+    color: #6c757d;
+    font-size: 1.2em;
+  }
+  
+  .input-field {
+    width: 319px;
+    height: 48px;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1em;
+    color: #6c757d;
+  }
+  
+  .input-field::placeholder {
+    color: #6c757d;
+  }
+  
+  .cancel-icon {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+
+  .discard-btn {
+    position: absolute;
+    top: 630px;
+    right: 360px;
+    height: 36px;
+    width: 150px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid;
+  }

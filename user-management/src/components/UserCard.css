@@ -1,0 +1,69 @@
+
+.user-card-container {
+  display: block;
+  position: absolute;
+  width: 871px;
+  top: 170px;
+  bottom: 20px;
+  left: 204px;
+  border: 1px;
+}
+  
+  .user-card {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card-heading {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+  }
+
+  .user-card-body {
+    display: flex;
+  }
+  
+  .user-card-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+  }
+
+  .user-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .user-card p {
+    margin: 0.5em 0;
+  }
+  
+  .user-card-actions {
+    text-align: center;
+    display: flex;
+  }
+  
+  .user-card-actions button {
+    border: none;
+    background-color: inherit;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .edit{
+    color: #6481E9;
+  }
+  
+  .delete{
+    color: #E05151;
+  }
+  /* On mouse-over */
+  .user-card-actions button:hover {background: #fff;}
+  
